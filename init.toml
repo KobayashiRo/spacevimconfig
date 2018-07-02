@@ -25,7 +25,9 @@
     enable_statusline_display_mode = false
     bootstrap_before="myspacevim#before"
     bootstrap_after="myspacevim#after"
-    enbale_googlesuggest = 1
+    enable_googlesuggest = 1
+    enable_vimfiler_gitstatus = true
+    filemanager = "nerdtree"
 [[custom_plugins]]
     name = "vim-vdebug/vdebug"
     name = "KobayashiRo/evervim"
@@ -39,17 +41,15 @@ auto-completion-tab-key-behavior = "smart"
 name = 'shell'
 default_position = 'top'
 default_height = 30
-
 [[layers]]
 name = "git"
-
 [[layers]]
 name = "lang#php"
-
 [[layers]]
 name = "chinese"
-
 [[layers]]
 name = "tags"
 [[layers]]
 name = "lang#python"
+[[layers]]
+name = "lang#vim"
